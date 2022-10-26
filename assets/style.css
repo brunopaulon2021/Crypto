@@ -1,19 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body {
-    width: 100%;
+html,
+body {
+  width: 100%;
 }
 
 /* Making the header a flexbox and setting the height of the image to 100px. */
 
 .header {
-    display: flex;
+  display: flex;
 }
 
 .header img {
-    height: 100px;
+  height: 100px;
+}
+
+
+/* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
+.banner {
+  background-image: url(/assets/banner.jpg);
+  background-size: cover;
+  height: 600px;
 }
