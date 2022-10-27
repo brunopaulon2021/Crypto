@@ -1,5 +1,9 @@
 :root {
-
+  --blond: #fbf2c1;
+  --dark-lava: #47382a;
+  --bistre: #44291d;
+  --copper-red: #c16e53;
+  --bittersweet: #f96f5d;
 }
 * {
   margin: 0;
