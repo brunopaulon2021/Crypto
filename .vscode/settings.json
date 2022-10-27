@@ -1,3 +1,5 @@
 {
-    "tabnine.receiveBetaChannelUpdates": true
+    "tabnine.receiveBetaChannelUpdates": true,
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true
 }
