@@ -23,11 +23,21 @@ body {
 
 .header {
   display: flex;
+  flex-direction: row;
   width: 100%;
+
+}
+
+.header {
+  font-size: 12px;
+  align-self: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .header img {
   height: 100px;
+  
 }
 
 
