@@ -6,6 +6,7 @@
   --copper-red: #c16e53;
   --bittersweet: #f96f5d;
 }
+
 /* It's making the width of the html and body 100% of the screen. */
 * {
   margin: 0;
@@ -26,6 +27,7 @@ body {
   align-self: center;
   align-items: center;
 }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -69,8 +71,9 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .btn-contato {
-  height:80px;
+  height: 80px;
   background-color: var(--bistre);
   width: 200px;
   border: none;
@@ -78,7 +81,7 @@ body {
 
 
 .btn-consulta {
-  height:80px;
+  height: 80px;
   background-color: var(--copper-red);
   width: 300px;
   border: none;
@@ -90,17 +93,38 @@ body {
 
 
 .btn-consulta:hover {
- background-color: #c16f53b8;
+  background-color: #c16f53b8;
 }
+
 /* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
 
 .banner {
-height: 600px;
-background-image: url(/assets/imagens/banner.png);
-background-size: cover;
+  height: 600px;
+  background-image: url(/assets/imagens/banner.png);
+  background-size: cover;
+  mix-blend-mode: lighten;
+  opacity: 0.83;
+  -webkit-filter: brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  filter: brightness(100%) contrast(120%) grayscale(0%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(50%) sepia(100%);
+  mix-blend-mode: multiply;
 }
 
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--bittersweet);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 
+.banner-text h1 {
+padding-bottom: 50px;
+}
+/* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
 
 .areas-de-atuacao {
   background-color: var(--);
