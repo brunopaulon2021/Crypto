@@ -20,33 +20,87 @@ body {
 }
 
 /* Making the header a flexbox and setting the height of the image to 100px. */
-
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
 .header {
   display: flex;
   flex-direction: row;
   width: 100%;
-
+  justify-content: space-between;
+  height: 100px;
 }
 
 .header {
-  font-size: 12px;
+  font-size: 16px;
   align-self: center;
   align-items: center;
   margin: 0 auto;
+  color: #6B3C31;
+  background-color: white;
 }
 
 .header img {
-  height: 100px;
-  
+  height: 80px;
+}
+
+.nav-bar a {
+  font-size: 18px;
+  justify-content: space-between;
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--bistre);
+}
+
+.nav-bar a:hover {
+  color: var(--copper-red);
+}
+
+.nav-btn {
+  width: 501px;
+  display: flex;
+}
+
+.nav-btn a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.btn-contato {
+  height:80px;
+  background-color: var(--bistre);
+  width: 200px;
+  border: none;
 }
 
 
+.btn-consulta {
+  height:80px;
+  background-color: var(--copper-red);
+  width: 300px;
+  border: none;
+}
+
+.btn-contato:hover {
+  background-color: #44291da3;
+}
+
+
+.btn-consulta:hover {
+ background-color: #c16f53b8;
+}
 /* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
+
 .banner {
-  background-image: url(/assets/banner.jpg);
-  background-size: cover;
-  height: 600px;
+height: 600px;
+background-image: url(/assets/imagens/banner.png);
+background-size: cover;
 }
+
+
 
 .areas-de-atuacao {
   background-color: var(--);
