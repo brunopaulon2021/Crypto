@@ -132,8 +132,19 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  justify-content: center; 
-  width: 250px;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.area-de-atuacao {
+  width: 30%;
+}
+
+.direito-civil,
+.direito-da-familia,
+.direito-previdenciario,
+.direito-trabalhista {
+  width: 17%;
 }
 
 .btn-ver-mais {
@@ -141,8 +152,9 @@ body {
   display: flex;
   padding-left: 20px;
 }
+
 .areas-de-atuacao h1 {
-   font-size: 2rem;
+  font-size: 2rem;
 }
 
 .btn-ver-mais a {
