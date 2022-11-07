@@ -24,23 +24,28 @@ body {
 .logo {
   display: flex;
   flex-direction: row;
-  align-self: center;
+}
+
+.logo figcaption {
+  text-align: center;
+  margin: 10px;
   align-items: center;
+  align-self: center;
 }
 
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
-  justify-content: space-between;
   height: 100px;
 }
 
 .header {
-  font-size: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
   align-self: center;
   align-items: center;
-  margin: 0 auto;
   color: #6B3C31;
   background-color: white;
 }
@@ -50,50 +55,15 @@ body {
 }
 
 .nav-bar a {
-  font-size: 18px;
-  justify-content: space-between;
+  font-size: 1rem;
   margin-left: 10px;
   text-decoration: none;
-  color: var(--bistre);
+  color: #6B3C31;
+
 }
 
 .nav-bar a:hover {
   color: var(--copper-red);
-}
-
-.nav-btn {
-  width: 501px;
-  display: flex;
-}
-
-.nav-btn a {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-}
-
-.btn-contato {
-  height: 80px;
-  background-color: var(--bistre);
-  width: 200px;
-  border: none;
-}
-
-
-.btn-consulta {
-  height: 80px;
-  background-color: var(--copper-red);
-  width: 300px;
-  border: none;
-}
-
-.btn-contato:hover {
-  background-color: #44291da3;
-}
-
-
-.btn-consulta:hover {
-  background-color: #c16f53b8;
 }
 
 /* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
@@ -137,24 +107,74 @@ body {
 }
 
 .area-de-atuacao {
+  margin-left:87px;
   width: 30%;
 }
+
+/* It's making the width of the images 100px and aligning them in the center. */
+
+.direito-civil img,
+.direito-da-familia img,
+.direito-previdenciario img,
+.direito-trabalhista img {
+  width: 100px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* It's making the width of the images 100px and aligning them in the center. */
 
 .direito-civil,
 .direito-da-familia,
 .direito-previdenciario,
 .direito-trabalhista {
-  width: 17%;
+  display: flex;
+  align-self: baseline;
+  flex-direction: column;
+  width: 18%;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* It's making the text of the links in the areas of practice section white. */
+
+.direito-civil a,
+.direito-da-familia a,
+.direito-previdenciario a,
+.direito-trabalhista a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--blond);
+}
+
+/*  */
+
+.direito-civil:hover,
+.direito-da-familia:hover,
+.direito-previdenciario:hover,
+.direito-trabalhista:hover {
+  background-color: #6d5742;
 }
 
 .btn-ver-mais {
   background-color: gray;
-  display: flex;
-  padding-left: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.areas-de-atuacao h1 {
-  font-size: 2rem;
+.btn-ver-mais:hover {
+  background-color: var(--copper-red);
+  transition: 0.5s linear;
+
+}
+
+.area-de-atuacao h1 {
+  font-size: 2.5rem;
+
 }
 
 .btn-ver-mais a {
