@@ -122,12 +122,32 @@ body {
 }
 
 .banner-text h1 {
-padding-bottom: 50px;
+  padding-bottom: 50px;
 }
+
 /* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
 
-.areas-de-atuacao {
+.container-areas-de-atuacao {
   background-color: var(--dark-lava);
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
+  justify-content: center; 
+  width: 250px;
+}
+
+.btn-ver-mais {
+  background-color: gray;
+  display: flex;
+  padding-left: 20px;
+}
+.areas-de-atuacao h1 {
+   font-size: 2rem;
+}
+
+.btn-ver-mais a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 20px;
+  color: white;
 }
