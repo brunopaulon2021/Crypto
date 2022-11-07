@@ -127,5 +127,6 @@ padding-bottom: 50px;
 /* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
 
 .areas-de-atuacao {
-  background-color: var(--);
+  background-color: var(--dark-lava);
+  display: flex;
 }
