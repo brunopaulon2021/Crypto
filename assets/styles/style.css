@@ -129,4 +129,5 @@ padding-bottom: 50px;
 .areas-de-atuacao {
   background-color: var(--dark-lava);
   display: flex;
+  flex-direction: row;
 }
