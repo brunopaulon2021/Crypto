@@ -57,3 +57,18 @@ color: var(--bittersweet);
 background-color: var(--bistre);
 border: none;
 }
+
+#btn-menu:hover {
+background-color: var(--copper-red);
+color: var(--dark-lava);
+border-radius: 50%;
+transition: 1s ease-in;
+
+}
+
+.menu-active {
+  display: block;
+  padding: 0 2%;
+  margin: 0 auto;
+
+}
