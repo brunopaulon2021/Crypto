@@ -29,16 +29,18 @@ header {
   align-items: center;
   padding: 20px;
   margin: 0 auto;
-
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 8px 28px 7px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 8px 28px 7px rgba(0, 0, 0, 0);
 }
-header > img {
-  height:70px;
-  width: 70px; 
+
+header>img {
+  height: 70px;
+  width: 70px;
   max-width: 100%;
   display: flex;
 }
 
-header > h1 {
+header>h1 {
   font-size: 1rem;
   font-weight: bold;
   margin: 0 20px;
@@ -46,29 +48,78 @@ header > h1 {
   color: var(--bistre);
   text-align: center;
 }
+
+/* It's making the menu hidden. */
+
 .menu {
-  display:none;
+  display: none;
 }
 
 #btn-menu {
-width: 30px;
-height: 30px;
-color: var(--bittersweet);
-background-color: var(--bistre);
-border: none;
+  width: 30px;
+  height: 30px;
+  color: var(--bittersweet);
+  background-color: var(--bistre);
+  border: none;
 }
 
-#btn-menu:hover {
-background-color: var(--copper-red);
-color: var(--dark-lava);
-border-radius: 50%;
-transition: 1s ease-in;
+.menu-list {
+  list-style: none;
+  height: 100%;
+  background-color: var(--dark-lava);
+}
 
+.menu-item {
+  padding: 22px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: var(--blond);
+  font-weight: bold;
+}
+
+.menu-item:hover {
+  background-color: var(--copper-red);
+  transition: 1s linear;
 }
 
 .menu-active {
-  display: block;
+  text-align: center;
+  max-width: 100%;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 2%;
   margin: 0 auto;
+}
 
+/* banner styles */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  background: url(/assets/imagens/banner.png);
+  width: 100%;
+  max-width: 480px;
+  height: 350px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.banner-text>h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.banner-text {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: var(--blond);
+  font-weight: bold;
+  max-width: 80%;
 }
