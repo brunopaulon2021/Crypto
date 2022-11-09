@@ -83,18 +83,23 @@ header>h1 {
 
 .menu-item:hover {
   background-color: var(--copper-red);
-  transition: 1s linear;
+  transition: 0.7s linear;
+  -webkit-transition: 0.7s linear;
+  -moz-transition: 0.7s linear;
+  -ms-transition: 0.7s linear;
+  -o-transition: 0.7s linear;
 }
 
 .menu-active {
   text-align: center;
   max-width: 100%;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 2%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* banner styles */
@@ -112,7 +117,7 @@ header>h1 {
   margin: 0 auto;
 }
 
-.banner-text>h2 {
+.banner-text > h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
@@ -172,3 +177,35 @@ color: var(--blond);
 .btn-ver-mais:hover {
   background-color:#440D0D;
 }
+
+.direito-previdenciario p,
+.direito-civil p,
+.direito-da-familia p,
+.direito-trabalhista p
+
+{
+  text-decoration: none;
+  color: var(--blond);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 40px;
+}
+.direito-previdenciario a,
+.direito-civil a,
+.direito-da-familia a,
+.direito-trabalhista a
+
+{
+  text-decoration: none;
+}
+.direito-previdenciario:hover,
+.direito-civil:hover,
+.direito-da-familia:hover,
+.direito-trabalhista:hover
+
+{
+  background-color: #d87e60;
+}
+
+/*  */
+

@@ -1,242 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="/assets/styles/style.css"/>
-        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"/>
-        <title>Paulon&Carvalho Assessoria Jurídica ME</title>
-        <meta name="author" content="Bruno Paulon"/>
-        <meta name="keywords" content="Acessória , Advocacia , Advogado, lei, jurídico , Paulon , Carvalho"/>
-        <meta name="description" content="Nossa trajetória teve início em 1985, quando recém-formado, nosso fundador Edson Carvalho decidiu ir em busca de um sonho, lutando pelo direito dos trabalhadores.
-                                        Com uma bicicleta e uma máquina de escrever, os primeiros passos foram seguidos de muito esforço, sempre inspirados pelos valores de nossa família."/>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <title>Paulon&Carvalho Assessoria Jurídica ME</title>
+    <meta name="author" content="Bruno Paulon" />
+    <meta name="keywords" content="Acessória , Advocacia , Advogado, lei, jurídico , Paulon , Carvalho" />
+    <meta name="description"
+        content="Nossa trajetória teve início em 1985, quando recém-formado, nosso fundador Edson Carvalho decidiu ir em busca de um sonho, lutando pelo direito dos trabalhadores.
+                                        Com uma bicicleta e uma máquina de escrever, os primeiros passos foram seguidos de muito esforço, sempre inspirados pelos valores de nossa família." />
+</head>
 
-    <body>
-        <!-- The header of the website. -->
-        <header
-            class="header">
+<body>
+    <!-- The header of the website. -->
+    <header class="header">
 
-            <!-- Creating a figure element with a class of logo. It is also creating an image element
+        <!-- Creating a figure element with a class of logo. It is also creating an image element
                                     with a source of /assets/imagens/logo.png and an alt attribute of Logo da empresa. It is
                                     also creating a h1 element with the text Paulon&Carvalho, a br element, a hr element,
                                     and the text Assessoria Jurídica ME. -->
-            <img src="/assets/imagens/logo.png" alt="Logo da empresa"/>
-            <h1 class="textLogo">
+        <img src="/assets/imagens/logo.png" alt="Logo da empresa" />
+        <h1 class="textLogo">
+            Paulon&Carvalho
+            <br />
+            <hr />
+            Assessoria Jurídica ME
+        </h1>
+        <!-- Creating a button with the id of btn-menu and the icon of bars. -->
+        <button id="btn-menu">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+    <nav class="menu-active">
+        <ul class="menu-list">
+
+            <li class="menu-item">
+                <a class="menu-link" href="assets/sobre.html">SOBRE</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="assets/unidades.html">UNIDADES</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="assets/sobre.html">EQUIPE</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="assets/areas.html">
+                    ÁREAS DE ATUAÇÃO
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="assets/blog.html">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="banner">
+        <span class="banner-text">
+            <h2>
                 Paulon&Carvalho
-                <br/>
-                <hr/>
+                <br />
+                <hr />
                 Assessoria Jurídica ME
-            </h1>
-            <!-- Creating a button with the id of btn-menu and the icon of bars. -->
-            <button id="btn-menu">
-                <i class="fa-sharp fa-solid fa-bars"></i>
-            </button>
+            </h2>
+            <p>
+                Uma família de advogados especialistas em suas áreas, atuando há mais de 35 anos em defesa da justiça.
+            </p>
 
-        </header>
-        <nav class="menu-active">
-            <ul class="menu-list">
-
-                <li class="menu-item">
-                    <a class="menu-link" href="assets/sobre.html">SOBRE</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="assets/unidades.html">UNIDADES</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="assets/sobre.html">EQUIPE</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="assets/areas.html">
-                        ÁREAS DE ATUAÇÃO
+        </span>
+    </section>
+    <!-- main section -->
+    <main>
+        <section class="container-areas-de-atuacao">
+            <div class="area-de-atuacao">
+                <h2>NOSSAS ÁREAS DE ATUAÇÃO</h2>
+                <button class="btn-ver-mais">
+                    <a href="#">
+                        VER MAIS +
                     </a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="assets/blog.html">
-                        BLOG
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <section class="banner">
-            <span class="banner-text">
-                <h2>
-                    Paulon&Carvalho
-                    <br/>
-                    <hr/>
-                    Assessoria Jurídica ME
-                </h2>
-                <p>
-                    Uma família de advogados especialistas em suas áreas, atuando há mais de 35 anos em defesa da justiça.
-                </p>
+                </button>
+            </div>
 
-            </span>
+            <div class="direito-previdenciario">
+                <a href="">
+                    <figure>
+                        <p>Direito Previdenciário</p>
+                        <img src="/assets/imagens/direito-previdenciario.png" alt="Icone Direito Previdenciário" />
+                    </figure>
+                </a>
+            </div>
+            <div class="direito-civil">
+                <a href="">
+                    <figure>
+                        <p>Direito Cível</p>
+                        <img src="/assets/imagens/direito-civil.png" alt="Icone Direito Cível" />
+                    </figure>
+                </a>
+            </div>
+            <div class="direito-da-familia">
+                <a href="">
+                    <figure>
+                        <p>Direito Trabalhista</p>
+                        <img src="/assets/imagens/direito-trabalhista.png" alt="Icone Direito Trabalhista" />
+                    </figure>
+                </a>
+            </div>
+            <div class="direito-trabalhista">
+                <a href="">
+                    <figure>
+                        <p>Direito da Família</p>
+                        <img src="/assets/imagens/direito-da-familia.png" alt="Icone Direito Trabalhista" />
+                    </figure>
+                </a>
+            </div>
+
         </section>
-        <!-- main section -->
-        <main>
-            <section class="container-areas-de-atuacao">
-                <div class="area-de-atuacao">
-                    <h2>NOSSAS ÁREAS DE ATUAÇÃO</h2>
-                    <button class="btn-ver-mais">
-                        <a href="#">
+
+        <!-- A section of the website. -->
+        <section>
+            <div>
+                <h1>NOSSA HISTÓRIA E COMPROMISSO</h1>
+                <p>
+                    Há mais de três décadas defendendo a justiça com coragem e
+                    transparência. Nossos valores fizeram de nós referência em todo o
+                    Vale do Itajaí.
+                </p>
+                <button>
+                    <a href="#">
+                        <strong>
                             VER MAIS +
-                        </a>
-                    </button>
-                </div>
+                        </strong>
+                    </a>
+                </button>
+            </div>
+            <figure>
+                <img src="" alt="Equipe">
+                <p>legenda da imagem</p>
+            </figure>
+        </section>
+        <!-- Closing the section tag. -->
 
-                <div class="direito-previdenciario">
-                    <a href="">
-                        <figure>
-                            <figcaption>Direito Previdenciário</figcaption>
-                            <img src="/assets/imagens/direito-previdenciario.png" alt="Icone Direito Previdenciário"/>
-                        </figure>
+        <!-- A section of the website. -->
+        <section>
+            <div>
+                <h1>EQUIPE DE ESPECIALISTAS</h1>
+                <p>
+                    Nossa equipe é completa e especializada em diversas áreas jurídicas.
+                </p>
+                <button>
+                    <a href="#">
+                        <strong>
+                            VER MAIS +
+                        </strong>
                     </a>
-                </div>
-                <div class="direito-civil">
-                    <a href="">
-                        <figure>
-                            <figcaption>Direito Cível</figcaption>
-                            <img src="/assets/imagens/direito-civil.png" alt="Icone Direito Cível"/>
-                        </figure>
-                    </a>
-                </div>
-                <div class="direito-da-familia">
-                    <a href="">
-                        <figure>
-                            <figcaption>Direito Trabalhista</figcaption>
-                            <img src="/assets/imagens/direito-trabalhista.png" alt="Icone Direito Trabalhista"/>
-                        </figure>
-                    </a>
-                </div>
-                <div class="direito-trabalhista">
-                    <a href="">
-                        <figure>
-                            <figcaption>Direito Trabalhista</figcaption>
-                            <img src="/assets/imagens/direito-trabalhista.png" alt="Icone Direito Trabalhista"/>
-                        </figure>
-                    </a>
-                </div>
+                </button>
+            </div>
+            <figure>
+                <img src="" alt="Equipe">
+                <p>legenda da imagem</p>
+            </figure>
+        </section>
+        <!-- Closing the section tag. -->
 
-            </section>
-
-            <!-- A section of the website. -->
-            <section>
+        <section>
+            <!--  -->
+            <div>
+                <h1>
+                    NOSSAS
+                    UNIDADES</h1>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div>
+                <!--  -->
                 <div>
-                    <h1>NOSSA HISTÓRIA E COMPROMISSO</h1>
+                    <h1>UNIDADE</h1>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div>
+                    <p>Fone: +55 (47) 3333-1992</p>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div>
+                    <p>Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial</p>
+                </div>
+                <!--  -->
+                <!--  -->
+            </div>
+            <div>
+                <!--  -->
+                <div>
+                    <h1>UNIDADE INDAIAL</h1>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div>
+                    <p>Fone: +55 (47) 3333-1992</p>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div>
+                    <p>Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial</p>
+                </div>
+                <!--  -->
+                <!--  -->
+            </div>
+            <div>
+                <!--  -->
+                <div>
+                    <h1>UNIDADE INDAIAL</h1>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div>
+                    <p>Fone: +55 (47) 3333-1992</p>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div>
+                    <p>Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial</p>
+                </div>
+                <!--  -->
+                <!--  -->
+            </div>
+            <!--  -->
+            <!--  -->
+            <div>
+                <h1>OUTROS LOCAIS DE ATENDIMENTO</h1>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div>
+                <div>
+                    <!--  -->
+                    <h1>UNIDADE INDAIAL</h1>
+                </div>
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <div>
                     <p>
-                        Há mais de três décadas defendendo a justiça com coragem e
-                                                                                                                    transparência. Nossos valores fizeram de nós referência em todo o
-                                                                                                                    Vale do Itajaí.
+                        Fone: +55 (47) 3333-1992
                     </p>
-                    <button>
-                        <a href="#">
-                            <strong>
-                                VER MAIS +
-                            </strong>
-                        </a>
-                    </button>
                 </div>
-                <figure>
-                    <img src="" alt="Equipe">
-                    <figcaption>legenda da imagem</figcaption>
-                </figure>
-            </section>
-            <!-- Closing the section tag. -->
-
-            <!-- A section of the website. -->
-            <section>
+                <!--  -->
+                <!--  -->
                 <div>
-                    <h1>EQUIPE DE ESPECIALISTAS</h1>
                     <p>
-                        Nossa equipe é completa e especializada em diversas áreas jurídicas.
+                        Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial
                     </p>
-                    <button>
-                        <a href="#">
-                            <strong>
-                                VER MAIS +
-                            </strong>
-                        </a>
-                    </button>
-                </div>
-                <figure>
-                    <img src="" alt="Equipe">
-                    <figcaption>legenda da imagem</figcaption>
-                </figure>
-            </section>
-            <!-- Closing the section tag. -->
-
-            <section>
-                <!--  -->
-                <div>
-                    <h1>
-                        NOSSAS
-                                                           UNIDADES</h1>
                 </div>
                 <!--  -->
-                <!--  -->
-                <div>
-                    <!--  -->
-                    <div>
-                        <h1>UNIDADE</h1>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div>
-                        <p>Fone: +55 (47) 3333-1992</p>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div>
-                        <p>Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial</p>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                </div>
-                <div>
-                    <!--  -->
-                    <div>
-                        <h1>UNIDADE INDAIAL</h1>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div>
-                        <p>Fone: +55 (47) 3333-1992</p>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div>
-                        <p>Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial</p>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                </div>
-                <div>
-                    <!--  -->
-                    <div>
-                        <h1>UNIDADE INDAIAL</h1>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div>
-                        <p>Fone: +55 (47) 3333-1992</p>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div>
-                        <p>Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial</p>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                </div>
-                <!--  -->
-                <!--  -->
-                <div>
-                    <h1>OUTROS LOCAIS DE ATENDIMENTO</h1>
-                </div>
-                <!--  -->
-                <!--  -->
+            </div>
+            <!--  -->
+            <div>
                 <div>
                     <div>
                         <!--  -->
@@ -245,18 +269,18 @@
                     <!--  -->
                     <!--  -->
                     <!--  -->
-                        <div>
-                            <p>
-                        Fone: +55 (47) 3333-1992
-                    </p>
+                    <div>
+                        <p>
+                            Fone: +55 (47) 3333-1992
+                        </p>
                     </div>
                     <!--  -->
                     <!--  -->
-                        <div>
-                            <p>
-                        Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial
-                    </p>
-                </div>
+                    <div>
+                        <p>
+                            Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial
+                        </p>
+                    </div>
                     <!--  -->
                 </div>
                 <!--  -->
@@ -269,187 +293,166 @@
                         <!--  -->
                         <!--  -->
                         <!--  -->
-                            <div>
-                                <p>
-                            Fone: +55 (47) 3333-1992
-                        </p>
+                        <div>
+                            <p>
+                                Fone: +55 (47) 3333-1992
+                            </p>
                         </div>
                         <!--  -->
                         <!--  -->
-                            <div>
-                                <p>
-                            Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial
-                        </p>
-                    </div>
-                        <!--  -->
-                    </div>
-                    <!--  -->
-                    <div>
                         <div>
-                            <div>
-                                <!--  -->
-                                <h1>UNIDADE INDAIAL</h1>
-                            </div>
-                            <!--  -->
-                            <!--  -->
-                            <!--  -->
-                                <div>
-                                    <p>
-                                Fone: +55 (47) 3333-1992
-                            </p>
-                            </div>
-                            <!--  -->
-                            <!--  -->
-                                <div>
-                                    <p>
+                            <p>
                                 Rua Marechal Floriano Peixoto, 105, 1º andar, sala 101 – Centro – Indaial
                             </p>
                         </div>
-                            <!--  -->
-                        </div>
                         <!--  -->
-                        <div>
-                            <h1>TIMBÓ -
-                                                                                                                                                            SINDICATO DOS TRABALHADORES DA INDÚSTRIA TÊXTIL</h1>
-                            <p>Fone: +55 47 3382-0731</p>
-                            <p>Rua Wilhelm Butzke Sênior, 154 - Centro - Timbó</p>
-                        </div>
-                    </section>
+                    </div>
                     <!--  -->
+                    <div>
+                        <h1>TIMBÓ -
+                            SINDICATO DOS TRABALHADORES DA INDÚSTRIA TÊXTIL</h1>
+                        <p>Fone: +55 47 3382-0731</p>
+                        <p>Rua Wilhelm Butzke Sênior, 154 - Centro - Timbó</p>
+                    </div>
+        </section>
+        <!--  -->
 
-                    <section>
-                        <div class="form">
-                            <h1>AGENDE UMA CONSULTA</h1>
-                            <p>Preencha os dados abaixo para que nossa equipe entre em contato e agende a sua consulta.</p>
-                            <form action="" method="post">
-                                <fieldset>
-                                    <legend>Dados de contato</legend>
-                                    <label for=""></label>
-                                    <input type="text" placeholder="nome completo">
-                                    <label for=""></label>
-                                    <input type="tel" name="" id="" placeholder="telefone ou whats">
-                                    <label for=""></label>
-                                    <input type="email" name="" id="" placeholder="email">
-                                    <label for=""></label>
-                                    <input type="text" placeholder="assunto">
-                                    <label for=""></label>
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="nos conte sobre o seu caso.."></textarea>
-                                    <input type="submit" value="Agendar">
-                                </fieldset>
-                            </form>
-                        </div>
-                    </section>
-                    <section>
-                        <h1>BLOG</h1>
-                        <!--  -->
-                        <p>Direito | Advogado | Processos Judiciais</p>
-                        <div class="blog">
-                            <div>
-                                <figure>
-                                    <figcaption>
-                                        27.10.2021
-                                    </figcaption>
-                                    <img src="" alt="">
-                                </figure>
-                                <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                                <p>Há quase dois ano ...</p>
-                                <a href="#">
-                                    <strong>
-                                        Ler mais +
-                                    </strong>
-                                </a>
-                            </div>
-                            <div>
-                                <figure>
-                                    <figcaption>
-                                        27.10.2021
-                                    </figcaption>
-                                    <img src="" alt="">
-                                </figure>
-                                <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                                <p>Há quase dois ano ...</p>
-                                <a href="#">
-                                    <strong>
-                                        Ler mais +
-                                    </strong>
-                                </a>
-                            </div>
-                            <div>
-                                <figure>
-                                    <figcaption>
-                                        27.10.2021
-                                    </figcaption>
-                                    <img src="" alt="">
-                                </figure>
-                                <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                                <p>Há quase dois ano ...</p>
-                                <a href="#">
-                                    <strong>
-                                        Ler mais +
-                                    </strong>
-                                </a>
-                            </div>
-                            <div>
-                                <figure>
-                                    <figcaption>
-                                        27.10.2021
-                                    </figcaption>
-                                    <img src="" alt="">
-                                </figure>
-                                <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                                <p>Há quase dois ano ...</p>
-                                <a href="#">
-                                    <strong>
-                                        Ler mais +
-                                    </strong>
-                                </a>
-                            </div>
-                            <!--  -->
-                        </div>
-                        <!--  -->
-                    </section>
-                    <!--  -->
-                </main>
-                <!-- 
-                                                                     -->
+        <section>
+            <div class="form">
+                <h1>AGENDE UMA CONSULTA</h1>
+                <p>Preencha os dados abaixo para que nossa equipe entre em contato e agende a sua consulta.</p>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Dados de contato</legend>
+                        <label for=""></label>
+                        <input type="text" placeholder="nome completo">
+                        <label for=""></label>
+                        <input type="tel" name="" id="" placeholder="telefone ou whats">
+                        <label for=""></label>
+                        <input type="email" name="" id="" placeholder="email">
+                        <label for=""></label>
+                        <input type="text" placeholder="assunto">
+                        <label for=""></label>
+                        <textarea name="" id="" cols="30" rows="10"
+                            placeholder="nos conte sobre o seu caso.."></textarea>
+                        <input type="submit" value="Agendar">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h1>BLOG</h1>
+            <!--  -->
+            <p>Direito | Advogado | Processos Judiciais</p>
+            <div class="blog">
+                <div>
+                    <figure>
+                        <p>
+                            27.10.2021
+                        </p>
+                        <img src="" alt="">
+                    </figure>
+                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
+                    <p>Há quase dois ano ...</p>
+                    <a href="#">
+                        <strong>
+                            Ler mais +
+                        </strong>
+                    </a>
+                </div>
+                <div>
+                    <figure>
+                        <p>
+                            27.10.2021
+                        </p>
+                        <img src="" alt="">
+                    </figure>
+                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
+                    <p>Há quase dois ano ...</p>
+                    <a href="#">
+                        <strong>
+                            Ler mais +
+                        </strong>
+                    </a>
+                </div>
+                <div>
+                    <figure>
+                        <p>
+                            27.10.2021
+                        </p>
+                        <img src="" alt="">
+                    </figure>
+                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
+                    <p>Há quase dois ano ...</p>
+                    <a href="#">
+                        <strong>
+                            Ler mais +
+                        </strong>
+                    </a>
+                </div>
+                <div>
+                    <figure>
+                        <p>
+                            27.10.2021
+                        </p>
+                        <img src="" alt="">
+                    </figure>
+                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
+                    <p>Há quase dois ano ...</p>
+                    <a href="#">
+                        <strong>
+                            Ler mais +
+                        </strong>
+                    </a>
+                </div>
                 <!--  -->
+            </div>
+            <!--  -->
+        </section>
+        <!--  -->
+    </main>
+    <!-- 
+                                                                     -->
+    <!--  -->
 
-                <footer class="footer">
-                    <div class="container-image">
+    <footer class="footer">
+        <div class="container-image">
 
-                        <figure>
-                            <img src="" alt="">
-                            <figcaption></figcaption>
-                        </figure>
+            <figure>
+                <img src="" alt="">
+                <p></p>
+            </figure>
 
-                    </div>
-                    <div>
-                        <p>
-                            <strong>CONTATO</strong>
-                        </p>
-                        <p>Telefone: +55 (47) 3333-1992</p>
-                        <p>WhatsApp: +55 (47) 99205-6097</p>
-                        <p>WhatsApp: +55 (47) 99163-5947</p>
-                        <p>Email: contato@advocaciamarquetti.com.br</p>
-                    </div>
-                    <div>
-                        <p>
-                            <strong>MENU</strong>
-                        </p>
-                        <a href="#">HOME</a>
-                        <a href="#">SOBRE</a>
-                        <a href="#">UNIDADES</a>
-                        <a href="#">EQUIPE</a>
-                        <a href="#">Áreas de Atuação</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contato</a>
-                        <a href="#">Agendar Consulta</a>
-                    </div>
-                    <hr>
-                        <h1></h1>
-                    </footer>
-                </body>
-                <script src="https://kit.fontawesome.com/7372008ce9.js" crossorigin="anonymous"></script>
-            </html>
-        </body>
-    </html>
+        </div>
+        <div>
+            <p>
+                <strong>CONTATO</strong>
+            </p>
+            <p>Telefone: +55 (47) 3333-1992</p>
+            <p>WhatsApp: +55 (47) 99205-6097</p>
+            <p>WhatsApp: +55 (47) 99163-5947</p>
+            <p>Email: contato@advocaciamarquetti.com.br</p>
+        </div>
+        <div>
+            <p>
+                <strong>MENU</strong>
+            </p>
+            <a href="#">HOME</a>
+            <a href="#">SOBRE</a>
+            <a href="#">UNIDADES</a>
+            <a href="#">EQUIPE</a>
+            <a href="#">Áreas de Atuação</a>
+            <a href="#">Blog</a>
+            <a href="#">Contato</a>
+            <a href="#">Agendar Consulta</a>
+        </div>
+        <hr>
+        <h1></h1>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/7372008ce9.js" crossorigin="anonymous"></script>
+
+</html>
+</body>
+
+</html>
