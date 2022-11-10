@@ -22,7 +22,7 @@ body {
 
 
 /* Mobile frist */
-header {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,14 +35,14 @@ header {
   box-shadow: 0px 10px 13px -7px #000000, 0px 8px 28px 7px rgba(0, 0, 0, 0);
 }
 
-header>img {
+.header img {
   height: 70px;
   width: 70px;
   max-width: 100%;
   display: flex;
 }
 
-header>h1 {
+.header h1 {
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0 10px;
@@ -117,7 +117,7 @@ header>h1 {
   margin: 0 auto;
 }
 
-.banner-text > h2 {
+.banner-text>h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
@@ -169,43 +169,72 @@ header>h1 {
   cursor: pointer;
 }
 
-.btn-ver-mais > a {
-text-decoration: none;
-color: var(--blond);
+.btn-ver-mais>a {
+  text-decoration: none;
+  color: var(--blond);
 }
 
 .btn-ver-mais:hover {
-  background-color:#440D0D;
+  background-color: #440D0D;
 }
 
 .direito-previdenciario p,
 .direito-civil p,
 .direito-da-familia p,
-.direito-trabalhista p
-
-{
+.direito-trabalhista p {
   text-decoration: none;
   color: var(--blond);
   font-weight: bold;
   font-size: 1.5rem;
   padding: 40px;
 }
+
 .direito-previdenciario a,
 .direito-civil a,
 .direito-da-familia a,
-.direito-trabalhista a
-
-{
+.direito-trabalhista a {
   text-decoration: none;
 }
+
 .direito-previdenciario:hover,
 .direito-civil:hover,
 .direito-da-familia:hover,
-.direito-trabalhista:hover
-
-{
+.direito-trabalhista:hover {
   background-color: #d87e60;
 }
 
 /*  */
 
+.container-historia {
+  box-shadow: 0px 10px 13px -7px #000000, 0px 8px 28px 7px rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 100%;
+  text-align: center;
+  background-color: var(--blond);
+}
+
+.historia-titulo {
+  font-weight: bold;
+  font-size: 2rem;
+  min-width: 300px;
+  text-align: center;
+  margin: 40px auto;
+  min-width: 300px;
+  max-width: 100%;
+  color: var(--copper-red);
+}
+
+.historia-paragrafo {
+  font-size: 1.5rem;
+  min-width: 300px;
+  text-align: justify;
+  margin: 40px auto;
+  min-width: 280px;
+  max-width: 80%;
+  color: var(--bistre);
+}

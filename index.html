@@ -19,10 +19,6 @@
     <!-- The header of the website. -->
     <header class="header">
 
-        <!-- Creating a figure element with a class of logo. It is also creating an image element
-                                    with a source of /assets/imagens/logo.png and an alt attribute of Logo da empresa. It is
-                                    also creating a h1 element with the text Paulon&Carvalho, a br element, a hr element,
-                                    and the text Assessoria Jurídica ME. -->
         <img src="/assets/imagens/logo.png" alt="Logo da empresa" />
         <h1 class="textLogo">
             Paulon&Carvalho
@@ -122,33 +118,41 @@
         </section>
 
         <!-- A section of the website. -->
-        <section>
-            <div>
-                <h1>NOSSA HISTÓRIA E COMPROMISSO</h1>
-                <p>
+        <section class="container-historia">
+            <div class="historia">
+                <h2 class="historia-titulo">NOSSA HISTÓRIA E COMPROMISSO</h2>
+                <p class="historia-paragrafo">
                     Há mais de três décadas defendendo a justiça com coragem e
-                    transparência. Nossos valores fizeram de nós referência em todo o
-                    Vale do Itajaí.
+                    transparência. Nossos valores fizeram de nós referência em Bauru
+                    e região.
                 </p>
-                <button>
+                <button class="btn-ver-mais">
                     <a href="#">
-                        <strong>
-                            VER MAIS +
-                        </strong>
+                        VER MAIS +
                     </a>
                 </button>
             </div>
             <figure>
-                <img src="" alt="Equipe">
+                <img src="/assets/imagens/fundadores.jpg" alt="Fundadores">
+                <figcaption>
+
+                    Katarina Paulon – OAB/SP x.xxx – Sócio Fundador <br>
+                    Joseph Paulon – OAB/SP x.xxx – Sócio Fundador <br>
+                    Maria Carvalho – OAB/BA x.xxx – Sócio Fundador <br>
+
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="/assets/imagens/equipe.jpg" alt="Equipe">
                 <p>legenda da imagem</p>
             </figure>
         </section>
         <!-- Closing the section tag. -->
 
         <!-- A section of the website. -->
-        <section>
+        <section class="container-historia">
             <div>
-                <h1>EQUIPE DE ESPECIALISTAS</h1>
+                <h2>EQUIPE DE ESPECIALISTAS</h2>
                 <p>
                     Nossa equipe é completa e especializada em diversas áreas jurídicas.
                 </p>
@@ -168,18 +172,18 @@
         <!-- Closing the section tag. -->
 
         <section>
-            <!--  -->
+            <!--   class="container-historia"-->
             <div>
-                <h1>
+                <h2 class="container-historia">
                     NOSSAS
-                    UNIDADES</h1>
+                    UNIDADES</h2>
             </div>
             <!--  -->
             <!--  -->
             <div>
-                <!--  -->
+                <!--   class="container-historia"-->
                 <div>
-                    <h1>UNIDADE</h1>
+                    <h2>UNIDADE</h2>
                 </div>
                 <!--  -->
                 <!--  -->
@@ -195,9 +199,9 @@
                 <!--  -->
             </div>
             <div>
-                <!--  -->
+                <!--   class="container-historia"-->
                 <div>
-                    <h1>UNIDADE INDAIAL</h1>
+                    <h2>UNIDADE INDAIAL</h2>
                 </div>
                 <!--  -->
                 <!--  -->
@@ -213,9 +217,9 @@
                 <!--  -->
             </div>
             <div>
-                <!--  -->
+                <!--   class="container-historia"-->
                 <div>
-                    <h1>UNIDADE INDAIAL</h1>
+                    <h2>UNIDADE INDAIAL</h2>
                 </div>
                 <!--  -->
                 <!--  -->
@@ -231,16 +235,16 @@
                 <!--  -->
             </div>
             <!--  -->
-            <!--  -->
+            <!--   class="container-historia"-->
             <div>
-                <h1>OUTROS LOCAIS DE ATENDIMENTO</h1>
+                <h2>OUTROS LOCAIS DE ATENDIMENTO</h2>
             </div>
             <!--  -->
             <!--  -->
             <div>
-                <div>
+                <div class="container-historia">
                     <!--  -->
-                    <h1>UNIDADE INDAIAL</h1>
+                    <h2>UNIDADE INDAIAL</h2>
                 </div>
                 <!--  -->
                 <!--  -->
@@ -262,9 +266,9 @@
             <!--  -->
             <div>
                 <div>
-                    <div>
+                    <div class="container-historia">
                         <!--  -->
-                        <h1>UNIDADE INDAIAL</h1>
+                        <h2>UNIDADE INDAIAL</h2>
                     </div>
                     <!--  -->
                     <!--  -->
@@ -286,9 +290,9 @@
                 <!--  -->
                 <div>
                     <div>
-                        <div>
+                        <div class="container-historia">
                             <!--  -->
-                            <h1>UNIDADE INDAIAL</h1>
+                            <h2>UNIDADE INDAIAL</h2>
                         </div>
                         <!--  -->
                         <!--  -->
@@ -307,19 +311,19 @@
                         </div>
                         <!--  -->
                     </div>
-                    <!--  -->
-                    <div>
-                        <h1>TIMBÓ -
-                            SINDICATO DOS TRABALHADORES DA INDÚSTRIA TÊXTIL</h1>
+                    <!--   class="container-historia"-->
+                    <div class="container-historia">
+                        <h2>TIMBÓ -
+                            SINDICATO DOS TRABALHADORES DA INDÚSTRIA TÊXTIL</h2>
                         <p>Fone: +55 47 3382-0731</p>
                         <p>Rua Wilhelm Butzke Sênior, 154 - Centro - Timbó</p>
                     </div>
         </section>
         <!--  -->
 
-        <section>
+        <section class="container-historia">
             <div class="form">
-                <h1>AGENDE UMA CONSULTA</h1>
+                <h2>AGENDE UMA CONSULTA</h2>
                 <p>Preencha os dados abaixo para que nossa equipe entre em contato e agende a sua consulta.</p>
                 <form action="" method="post">
                     <fieldset>
@@ -339,77 +343,77 @@
                     </fieldset>
                 </form>
             </div>
-        </section>
-        <section>
-            <h1>BLOG</h1>
-            <!--  -->
-            <p>Direito | Advogado | Processos Judiciais</p>
-            <div class="blog">
-                <div>
-                    <figure>
-                        <p>
-                            27.10.2021
-                        </p>
-                        <img src="" alt="">
-                    </figure>
-                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                    <p>Há quase dois ano ...</p>
-                    <a href="#">
-                        <strong>
-                            Ler mais +
-                        </strong>
-                    </a>
-                </div>
-                <div>
-                    <figure>
-                        <p>
-                            27.10.2021
-                        </p>
-                        <img src="" alt="">
-                    </figure>
-                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                    <p>Há quase dois ano ...</p>
-                    <a href="#">
-                        <strong>
-                            Ler mais +
-                        </strong>
-                    </a>
-                </div>
-                <div>
-                    <figure>
-                        <p>
-                            27.10.2021
-                        </p>
-                        <img src="" alt="">
-                    </figure>
-                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                    <p>Há quase dois ano ...</p>
-                    <a href="#">
-                        <strong>
-                            Ler mais +
-                        </strong>
-                    </a>
-                </div>
-                <div>
-                    <figure>
-                        <p>
-                            27.10.2021
-                        </p>
-                        <img src="" alt="">
-                    </figure>
-                    <h1>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h1>
-                    <p>Há quase dois ano ...</p>
-                    <a href="#">
-                        <strong>
-                            Ler mais +
-                        </strong>
-                    </a>
+            </sect class="container-historia" ion class="container-historia">
+            <section>
+                <h2>BLOG</h2>
+                <!--  -->
+                <p>Direito | Advogado | Processos Judiciais</p>
+                <div class="blog">
+                    <div>
+                        <figure>
+                            <p>
+                                27.10.2021
+                            </p>
+                            class="container-historia" <img src="" alt="" class="container-historia">
+                        </figure>
+                        <h2>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h2>
+                        <p>Há quase dois ano ...</p>
+                        <a href="#">
+                            <strong>
+                                Ler mais +
+                            </strong>
+                        </a>
+                    </div>
+                    <div>
+                        <figure>
+                            <p>
+                                27.10.2021
+                            </p>
+                            class="container-historia" <img src="" alt="" class="container-historia">
+                        </figure>
+                        <h2>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h2>
+                        <p>Há quase dois ano ...</p>
+                        <a href="#">
+                            <strong>
+                                Ler mais +
+                            </strong>
+                        </a>
+                    </div>
+                    <div>
+                        <figure>
+                            <p>
+                                27.10.2021
+                            </p>
+                            class="container-historia" <img src="" alt="" class="container-historia">
+                        </figure>
+                        <h2>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h2>
+                        <p>Há quase dois ano ...</p>
+                        <a href="#">
+                            <strong>
+                                Ler mais +
+                            </strong>
+                        </a>
+                    </div>
+                    <div>
+                        <figure>
+                            <p>
+                                27.10.2021
+                            </p>
+                            class="container-historia" <img src="" alt="" class="container-historia">
+                        </figure>
+                        <h2>VACINAÇÃO COVID-19 X DEMISSÃO POR JUSTA CAUSA</h2>
+                        <p>Há quase dois ano ...</p>
+                        <a href="#">
+                            <strong>
+                                Ler mais +
+                            </strong>
+                        </a>
+                    </div>
+                    <!--  -->
                 </div>
                 <!--  -->
-            </div>
+            </section>
             <!--  -->
-        </section>
-        <!--  -->
     </main>
     <!-- 
                                                                      -->
@@ -445,9 +449,9 @@
             <a href="#">Blog</a>
             <a href="#">Contato</a>
             <a href="#">Agendar Consulta</a>
-        </div>
-        <hr>
-        <h1></h1>
+            </ class="container-historia" div class="container-historia">
+            <hr>
+            <h2></h2>
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/7372008ce9.js" crossorigin="anonymous"></script>
