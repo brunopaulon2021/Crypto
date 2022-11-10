@@ -284,3 +284,62 @@ padding: 40px;
   max-height: 480px;
 }
  /*  */
+
+ .container-unidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+ }
+
+ .container-unidades h2 {
+  color: #440D0D;
+  font-size: 2rem;
+  margin-top: 20px;
+ }
+
+ .container-unidades h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+ }
+ .container-unidades p {
+  font-size: 1.3rem;
+  color: #000000;
+  margin-top: 20px;
+ }
+
+ 
+ .outros-locais-de-atendimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+ }
+
+ .outros-locais-de-atendimento h2 {
+  color: #440D0D;
+  font-size: 2rem;
+  margin-top: 20px;
+ }
+
+ .outros-locais-de-atendimento h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+ }
+ .outros-locais-de-atendimento p {
+  font-size: 1.3rem;
+  color: #000000;
+  margin-top: 20px;
+ }
