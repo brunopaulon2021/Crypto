@@ -191,7 +191,10 @@
                     OUTROS LOCAIS DE ATENDIMENTO
                 </h2>
             </div>
-            <div class="local-1">
+
+          <!-- Creating a div with a class of local-1. It is also creating a h3 and a p tag. -->
+           
+          <div class="local-1">
                 <h3>
                     BAURU -
                     SINDICATO DOS TRABALHADORES DA CONSTRUÇÃO CIVIL E MOBILIÁRIO
@@ -199,6 +202,7 @@
                 <p><strong>Fone:</strong> +55 (14) 3218-1992</p>
                 <p>Rua Marechal Peixoto, 306, 1º andar, sala 101 – Centro – Bauru</p>
             </div>
+    
             <div class="local-2">
                 <h3>
                     BAURU -
@@ -217,25 +221,20 @@
         
         <!--  -->
 
-        <section class="">
+        <section class="container-formulario">
             <div class="form">
                 <h2>AGENDE UMA CONSULTA</h2>
                 <p>Preencha os dados abaixo para que nossa equipe entre em contato e agende a sua consulta.</p>
-                <form action="" method="post">
+                <form>
                     <fieldset>
                         <legend>Dados de contato</legend>
-                        <label for=""></label>
-                        <input type="text" placeholder="nome completo">
-                        <label for=""></label>
-                        <input type="tel" name="" id="" placeholder="telefone ou whats">
-                        <label for=""></label>
-                        <input type="email" name="" id="" placeholder="email">
-                        <label for=""></label>
-                        <input type="text" placeholder="assunto">
-                        <label for=""></label>
+                        <input type="text" placeholder="Nome Completo" required>
+                        <input type="tel" name="" id="" placeholder="Telefone ou Whatsapp" required>
+                        <input type="email" name="" id="" placeholder="Email" required>
+                        <input type="text" placeholder="Assunto" required>
                         <textarea name="" id="" cols="30" rows="10"
-                            placeholder="nos conte sobre o seu caso.."></textarea>
-                        <input type="submit" value="Agendar">
+                            placeholder="Nos conte o seu caso..." required></textarea>
+                        <input id="btn-agendar" type="submit" value="Agendar">
                     </fieldset>
                 </form>
             </div>
