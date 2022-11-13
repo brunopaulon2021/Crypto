@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"tabnine.receiveBetaChannelUpdates": true
+		"tabnine.receiveBetaChannelUpdates": true,
+		"docwriter.style": "Auto-detect"
 	}
 }
